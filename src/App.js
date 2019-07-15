@@ -3,7 +3,7 @@ import { Header, Footer } from './components/layout';
 import Exercises from './components/exercises';
 import { muscles, exercises } from './components/store';
 import { Provider } from './contextapi';
-import { CssBaseline } from '@material-ui/core';
+import CssBaseline from '@material-ui/core/CssBaseline';
 
 export default class extends Component {
 	state = {

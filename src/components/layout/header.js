@@ -1,5 +1,8 @@
 import React from 'react';
-import { AppBar, Toolbar, Typography, withStyles } from '@material-ui/core';
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
+import Typography from '@material-ui/core/Typography';
+import withStyles from '@material-ui/core/styles/withStyles';
 import CreateDialog from '../exercises/dialog/create';
 
 const styles = () => ({

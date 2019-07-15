@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
-import {
-    TextField,
-    FormControl,
-    InputLabel,
-    Select,
-    Button,
-    MenuItem,
-    DialogContent,
-    DialogContentText,
-    DialogActions, withWidth
-} from '@material-ui/core';
+import TextField from '@material-ui/core/TextField';
+import FormControl from '@material-ui/core/FormControl';
+import InputLabel from '@material-ui/core/InputLabel';
+import Select from '@material-ui/core/Select';
+import Button from '@material-ui/core/Button';
+import MenuItem from '@material-ui/core/MenuItem';
+import DialogContent from '@material-ui/core/DialogContent';
+import DialogContentText from '@material-ui/core/DialogContentText';
+import DialogActions from '@material-ui/core/DialogActions';
+import withWidth from '@material-ui/core/withWidth';
 import { withStyles } from '@material-ui/core/styles';
 
 const styles = () => ({

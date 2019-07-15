@@ -1,6 +1,9 @@
 import React, { Component, Fragment } from 'react';
-import { Dialog, DialogTitle, Fab, Paper } from '@material-ui/core';
-import { Add } from '@material-ui/icons';
+import Dialog from '@material-ui/core/Dialog';
+import DialogTitle from '@material-ui/core/DialogTitle';
+import Fab from '@material-ui/core/Fab';
+import Paper from '@material-ui/core/Paper';
+import Add from '@material-ui/icons/Add';
 import Draggable from 'react-draggable';
 import FormData from '../form';
 import { withContext } from '../../../contextapi';
