@@ -1,10 +1,13 @@
 {
-  "name": "material-ui-crud-project",
+  "name": "material-ui-project",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.2.0",
+    "@material-ui/icons": "^4.2.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-draggable": "^3.3.0",
     "react-scripts": "3.0.1"
   },
   "scripts": {
